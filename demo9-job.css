@@ -1,0 +1,298 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	width: 100%;
+	min-width: 320px;
+}
+header{
+	width: 100%;
+	margin: 0 auto;
+
+}
+.service{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5% 6%;
+	color:#29b078;
+	background: #fafafa;
+	height: 2.6rem;
+}
+.chat{
+	border: none;
+}
+
+.chat li a{
+	padding: 10%;
+}
+.homenav{
+	position: relative;
+	background: #29b078;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding: 1% 6%;
+}
+main{
+	margin-bottom: 5rem;
+}
+.logo{        
+}
+.navigation{
+	border:none;
+}
+.navigation li a{
+	font-size: 2rem;
+	margin-bottom: -1.3rem;
+	color: #fff;
+	border: none;
+}
+.navigation li a:hover{
+	border-bottom: 3px solid #fff;
+	background:none;
+}
+.header-nav{
+    overflow: hidden;
+    margin: 0;
+    padding: 0 8%;
+    width: 100%;
+    vertical-align: middle;
+    color: white;
+    border: none;
+    background-color: #29b078;
+}
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.header-nav-left img{
+    display: inline-block;
+    width: 20rem;
+    height: 100%;
+}
+@media screen and (max-width: 550px){
+	.header-nav-left img{
+		width: 15rem;
+	}
+}
+.header-nav-right ul li a {
+    padding: 1.9rem 1.6rem 1.9rem 1.6rem;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.header-nav-right a:hover {
+    border-bottom: 3px solid white;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px){	
+	.down{
+		text-align: center;
+		margin: auto;
+		width: 30%
+	}
+	.header-nav-right {
+	    width: 100%;
+	    overflow: hidden;
+		}
+	.header-nav-right{
+		border: none;
+	}
+	.content .ios{
+	padding: 15% 10%;
+	}
+}
+.job{
+	margin-top: .8rem;
+	color: #999;
+}
+.job1{
+	color: #29b078;
+}
+
+.job2{
+	padding: 1rem;
+	border-bottom: 1px solid #999;
+}
+
+.list a{
+	color: #000;
+}
+.list li a:hover{
+	background: #29b078;
+}
+.web{
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #999;
+}
+.ios{
+	position: absolute;
+	z-index: 1;
+	display: none;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	color: #fff;
+	background: rgba(0,0,0,.8);
+	padding: 30% 10%;
+}
+.ios h3{
+	text-align: center;
+}
+
+.content:hover .ios{
+	display: block;
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: #edecec solid;
+    margin: 8rem auto 0;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.one p{
+    word-break: break-all;
+    padding-left: 0.5rem;
+}
+.one span{
+    display: block;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.two{
+    border: #edecec solid 0.2rem;
+    border-right: none;
+    border-left: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.two img{
+	vertical-align: top;
+}
+.three{
+	border: #edecec solid 0.2rem;
+	border-right: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.three img{
+	vertical-align: top;
+}
+.four{
+	border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.four p span{
+	color: #ff0000;
+}
+.five{
+	border: none;
+	border-left: #edecec solid 0.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.five p span{
+	color: #ff0000;
+}
+.seven{
+	display: flex;
+    justify-content: space-between;
+    border: #edecec solid 0.2rem;
+    border-right: none;
+}
+.seven2{
+	border-top: none;
+}
+.seven3{
+	border-top: none;
+	border-bottom:none;
+}
+.six{
+	text-align: center;
+    color: #999999;
+}
+.six1{
+	border-top: #edecec solid 0.2rem;
+}
+.eight{
+    border: #edecec solid 0.2rem;
+    border-left: none;
+    border-right: none;
+}
+.eight p{
+    margin: 0;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.eight span{
+	color: #ff0000;
+}
+.nine{
+    border-bottom: : #edecec solid 0.2rem;
+    border:none;
+}
+.nine p{
+	margin: 0;
+}
+
+
+
+
+.main-middle-bottom1{
+	text-align: center;
+	margin-left: 6rem;
+}
+.main-middle-bottom1 p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.main-middle-bottom1 ul{
+	float: left;
+	width: 15%;
+	min-width: 100px;
+}
+.main-middle-bottom1 ul li{
+	color: #666;
+}
+.last{
+	padding: 2rem;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+}
+footer a{
+	color: #fff;
+}
+footer a:hover{
+	text-decoration: none;
+}
+.contact{
+	text-align: left;
+}
+footer{
+	background: #29b078;
+}
+footer span{
+	display: block;
+	text-align: center;
+    border-top: 1px solid #fff;
+}
